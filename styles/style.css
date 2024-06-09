@@ -1,0 +1,84 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
+
+
+body{
+    font-family: 'Redressed', cursive;
+    margin: 0;
+    padding: 0;
+    background-color:  #4a952c;
+}
+.main{
+    background-color: aqua;
+    min-height: 154px;
+    max-height: 154px;
+}
+.pol{
+    width: 100%;
+    min-height: 185px;
+    background-image: url("../img/pol.png");
+    background-repeat: repeat-x;
+    background-color: aqua;
+    color: aqua;
+
+}
+.pol2{
+    width: 100%;
+}
+.menu{
+    width: 100%;
+    background-color: aqua;
+    min-height: 186px;
+    max-height: 186px;
+}
+.inp {
+    height: 102px;
+    font-size: 30px;
+    font-family: 'Redressed', cursive;
+    border-radius: 20px;
+    border: none;
+    padding: 5px;
+    background: #fffc;
+    transition: 1s;
+}
+.input2 {
+    font-size: 34px;
+    color: #774f06;
+}
+
+#btn:hover {
+
+    background: black;
+    /*! color: green; */
+}
+#btn {
+
+    border-radius: 20px;
+    border: solid;
+    border-width: 1px;
+    font-family: 'Redressed', cursive;
+    font-size: 24px;
+    background: #4a952c;
+    color: #f9f9f9;
+    transition: 1s;
+}
+#btn2:hover {
+
+    background: black;
+    color: white;
+}
+#btn2 {
+
+    width: 41%;
+    border-radius: 10px;
+    height: 30px;
+    font-family: 'Redressed', cursive;
+    background: #85f757;
+    font-size: 20px;
+    border: none;
+    transition: 1s;
+}
+
+.inp:hover{
+    background: white;
+}

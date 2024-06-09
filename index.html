@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+</head>
+<body>
+<div class="menu">
+    <table  width="100%">
+        <tr>
+            <td width="33%" align="right">
+                <input align="center" placeholder="ввод №1" maxlength="15" class="inp" id="inp1" type="text" style="margin-top: 70px; width: 300px">
+
+            </td>
+            <td width="33%" align="center">
+                <input width="100%" hidden="true" id="btn" type="button" value="ВАСЯ, ЧТО ТЫ ВЫБЕРЕШЬ?  " onclick="start()">
+            </td>
+            <td width="33%">
+                <input align="center" placeholder="ввод №2" maxlength="15" class="inp" id="inp2" type="text" style="margin-top: 70px; width: 300px">
+            </td>
+        </tr>
+    </table>
+    <table width="100%" align="center">
+        <tr>
+            <td width="50%">
+                <div class="input2" id="textLeft" align="center"></div>
+            </td>
+            <td>
+                <div  class="input2" id="textRight" align="center"></div>
+            </td>
+        </tr>
+    </table>
+
+
+</div>
+
+<div class="main">
+
+    <img alt="" id="vas" style="margin-left: -140px">
+</div>
+<div class="pol">s</div>
+<div class="pol2"   align="center">
+    <p id="message" style="font-size:26px;"></p>
+    <input id="btn2" type="button" value="СПРОСИТЬ ЕЩЕ" ONCLICK="reset()">
+</div>
+<script src="js/script.js"></script>
+</body>
+</html>
